@@ -2,7 +2,7 @@ ShortlistAI
 
 Full-Stack AI-Powered CV Screening System
 
-Overview
+# Overview
 
 ShortlistAI is a full-stack recruitment screening platform designed to analyse and rank candidate CVs against job descriptions using AI.
 
@@ -10,7 +10,7 @@ This project was built as an end-to-end production-style system to demonstrate b
 
 The system enables recruiters to upload candidate CVs, analyse them against structured role criteria, and receive ranked shortlists with transparent scoring.
 
-Key Features
+# Key Features
 
 Secure JWT-based authentication
 
@@ -32,7 +32,7 @@ Downloadable ranked shortlists (CSV export)
 
 Screening history with search functionality
 
-Scoring Philosophy
+# Scoring Philosophy
 
 ShortlistAI uses a tiered weighting model:
 
@@ -47,9 +47,9 @@ This reflects realistic recruiter decision-making rather than naive keyword matc
 
 The system also generates an AI confidence level to increase transparency in ranking decisions.
 
-Tech Stack
+# Tech Stack
 
-Frontend
+# Frontend
 
 React
 
@@ -57,7 +57,7 @@ TypeScript
 
 Tailwind CSS
 
-Backend
+# Backend
 
 Python
 
@@ -65,11 +65,11 @@ FastAPI
 
 JWT Authentication
 
-Database
+# Database
 
 PostgreSQL
 
-AI Integration
+# AI Integration
 
 LLM-based CV analysis
 
@@ -77,7 +77,7 @@ Structured scoring and recruiter summary generation
 
 Deployment-ready architecture with API-based separation between frontend and backend.
 
-System Architecture (High-Level)
+# System Architecture (High-Level)
 
 User → Frontend (React)
 → Authenticated API Request
@@ -103,7 +103,7 @@ Candidates are scored and ranked
 
 Recruiter reviews results and exports shortlist
 
-Design Principles
+# Design Principles
 
 Transparency over “black-box” AI
 
@@ -115,7 +115,7 @@ Production-style authentication and data persistence
 
 Practical usability over feature bloat
 
-What This Project Demonstrates
+# What This Project Demonstrates
 
 Full-stack system design
 
@@ -131,7 +131,7 @@ Weighted scoring calibration
 
 Product-focused UX refinement
 
-Future Improvements
+# Future Improvements
 
 Role template management
 
@@ -143,7 +143,7 @@ Audit trail logging
 
 Performance optimisation for large file batches
 
-Disclaimer
+# Disclaimer
 
 This system is designed as a decision-support tool.
 Final hiring decisions should always involve human review.
