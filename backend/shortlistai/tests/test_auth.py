@@ -1,8 +1,3 @@
-"""
-tests/test_auth.py
-Integration tests for authentication endpoints.
-Uses an in-memory SQLite database — no external services required.
-"""
 from __future__ import annotations
 
 import pytest
@@ -106,4 +101,4 @@ async def test_me_endpoint(client: AsyncClient):
 
 async def test_me_unauthenticated(client: AsyncClient):
     response = await client.get("/api/v1/auth/me")
-    assert response.status_code == 403  # No credentials supplied → HTTPBearer 403
+    assert response.status_code == 403  

@@ -1,8 +1,3 @@
-"""
-tests/test_ai_service.py
-Unit tests for pure utility functions in the AI service layer.
-No OpenAI calls made — all AI interactions are mocked.
-"""
 from __future__ import annotations
 
 import pytest

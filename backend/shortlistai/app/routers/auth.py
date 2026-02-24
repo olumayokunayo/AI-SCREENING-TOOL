@@ -1,5 +1,4 @@
 """
-app/routers/auth.py
 Authentication endpoints: register, login, me.
 """
 from __future__ import annotations

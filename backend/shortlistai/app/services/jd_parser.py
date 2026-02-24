@@ -1,5 +1,4 @@
 """
-app/services/jd_parser.py
 
 Classifies a raw job description into three scored sections:
   - essential   : hard requirements the candidate must meet
